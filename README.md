@@ -1,4 +1,4 @@
-# EducaConecta — Protótipo HTML (V4)
+# EducaConecta — Protótipo HTML
 
 **Aprender hoje. Transformar amanhã.**
 
@@ -9,7 +9,7 @@ Protótipo front-end demonstrativo do EducaConecta, ecossistema digital da EaDTe
 Abra `index.html` em um navegador atualizado — não há build nem dependências.
 
 Roteiro sugerido de teste:
-1. Navegue pela **Biblioteca BNCC** (temas com faces aluno, professor e família) e pelos cards Saeb, Enem e Encceja.
+1. Navegue pela **Biblioteca BNCC** (temas com faces aluno, professor, família e gestor) e pelos cards Saeb, Enem e Encceja.
 2. Entre como **Aluno** e responda ao diagnóstico de Matemática do 5º ano.
 3. Alterne para **Professor** > **Montar reforço**: combine temas sugeridos pelo diagnóstico e publique o curso.
 4. Volte como **Aluno** > **Meu reforço**, conclua os temas, pratique e reavalie.
@@ -18,24 +18,24 @@ Roteiro sugerido de teste:
 
 O ciclo entre perfis é mantido via `localStorage` no mesmo navegador.
 
-## Novidades da V4
+## Principais recursos
 
 - **Hierarquia de cadastros:** Estado → Regional → Escola → Série → Turma → Turma por disciplina → Aluno, com indicadores agregados em cada nível.
 - **Perfil Responsável:** evolução por habilidade em linguagem simples, reforço atribuído e dicas para ajudar em casa.
-- **Biblioteca por tema:** 24 temas indexados por metadados BNCC, cada um com face do aluno, do professor (plano de aula e materiais) e da família.
+- **Biblioteca por tema:** 24 temas indexados por metadados BNCC, cada um com face do aluno, do professor (plano de aula e materiais), da família e do gestor (uso do tema na rede).
 - **Montagem de curso de reforço:** o diagnóstico sugere temas; o professor combina, ordena e publica.
-- **Tema transversal:** Educação Financeira em vários componentes e anos.
+- **Tema transversal:** Educação Financeira em vários componentes e anos, com base no programa de Educação Financeira do Banco Central (Aprender Valor).
 
 ## Estrutura
 
 | Arquivo | Conteúdo |
 |---|---|
 | `index.html` | Ponto de entrada |
-| `app.js` | Base V3: páginas públicas, ambientes Aluno/Professor/Gestor e ciclo de avaliação |
-| `v4.js` | Camada V4: hierarquia, perfil Responsável, biblioteca por tema e montagem de reforço |
-| `styles.css` / `v4.css` | Estilos |
+| `app.js` | Páginas públicas, ambientes Aluno/Professor/Gestor e ciclo de avaliação |
+| `extensoes.js` | Hierarquia de cadastros, perfil Responsável, biblioteca por tema e montagem de reforço |
+| `styles.css` / `extensoes.css` | Estilos |
 | `assets/hero-reference.webp` | Imagem do hero da home |
-| `LEIA-ME.txt` | Notas da V4 |
+| `LEIA-ME.txt` | Roteiro rápido |
 
 ## Limitações
 
