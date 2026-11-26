@@ -21,7 +21,7 @@ O ciclo entre perfis é mantido via `localStorage` no mesmo navegador.
 ## Principais recursos
 
 - **Hierarquia de cadastros:** Estado → Regional → Escola → Série → Turma → Turma por disciplina → Aluno, com indicadores agregados em cada nível.
-- **Perfil Responsável:** evolução por habilidade em linguagem simples, reforço atribuído e dicas para ajudar em casa.
+- **Perfil Responsável:** evolução por habilidade em linguagem simples, reforço atribuído com dicas para ajudar em casa, calendário escolar e comunidade de pais moderada pela escola, com guias de boas práticas.
 - **Biblioteca por tema:** 24 temas indexados por metadados BNCC, cada um com face do aluno, do professor (plano de aula e materiais), da família e do gestor (uso do tema na rede).
 - **Montagem de curso de reforço:** o diagnóstico sugere temas; o professor combina, ordena e publica.
 - **Tema transversal:** Educação Financeira em vários componentes e anos, com base no programa de Educação Financeira do Banco Central (Aprender Valor).
