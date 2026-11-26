@@ -1,0 +1,11 @@
+EDUCACONECTA V3 — Abra index.html no navegador.
+
+Novidades:
+- Seção de tecnologias Adobe removida da página Sobre.
+- Página pública de avaliações com acessos Saeb, Enem e Encceja.
+- Cards na página inicial e navegação pública.
+- Páginas específicas com tópicos e prática de 3 questões autorais para cada avaliação.
+- Saeb também permite acessar o ciclo integrado do 5º ano (diagnóstico, reforço, reavaliação).
+
+Dados fictícios; atividades não são provas oficiais do Inep.
+Os ambientes demonstrativos continuam disponíveis via Entrar.
